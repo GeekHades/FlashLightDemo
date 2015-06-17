@@ -40,6 +40,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         turnBtn.setChecked(true);
         turnBtn.setOnClickListener(this);
 
+
         //保持屏幕
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
